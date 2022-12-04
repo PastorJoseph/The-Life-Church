@@ -2,6 +2,13 @@
  
  
 
+ .box-1 {
+                  
+  color: gold;
+ background-color: black;
+ text-shadow:2px 2px aliceblue;
+}
+
 /* a {
   text-decoration: none;
 }
