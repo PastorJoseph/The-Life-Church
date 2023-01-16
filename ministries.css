@@ -1,0 +1,52 @@
+.box-1 {
+        
+    color: gold;
+   background-color: black;
+   text-shadow:2px 2px aliceblue;
+  }
+
+            .g {
+              color: #fff;
+              text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
+              }
+              .g:hover {
+                color: blanchedalmond;
+              }
+
+  body {
+  overflow-x: hidden;
+  }
+
+  .bg {
+    background-color: cornsilk;
+  }
+
+  .hd {
+              color: dodgerblue;
+              font-weight: 400;
+              text-shadow: 1px 1px skyblue;
+            }
+             
+            .TSh {
+              text-shadow: 2px 3px gold;
+            } 
+          
+
+.nav-link{
+color: white;
+
+font-size: larger;
+}  
+
+            .nav-link:hover {
+              color: aqua;
+            }
+
+            .display-3 {
+              font-weight: 400;
+              text-shadow: 1px 1px gray;
+            }
+            .display-5 {
+              font-weight: 400;
+              text-shadow: 1px 1px gray;
+            }
