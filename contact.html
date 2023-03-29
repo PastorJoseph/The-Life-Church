@@ -57,7 +57,7 @@
           <h1 class="text-primary py-5  display-2">Contact Us</h1>
       </div>
       <div class="container px-5 my-5">
-        <form id="contactForm" data-sb-form-api-token="dc2bb74a-7782-4fe2-95e2-06c6b9a477a7">
+        <!-- <form id="contactForm" data-sb-form-api-token="dc2bb74a-7782-4fe2-95e2-06c6b9a477a7">
             <div class="form-floating mb-3">
                 <input class="form-control" id="firstName" type="text" placeholder="First Name" data-sb-validations="required" />
                 <label for="firstName">First Name</label>
@@ -91,9 +91,39 @@
             <div class="d-grid">
                 <button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Submit</button>
             </div>
-        </form>
+        </form> -->
+
+        <form class="row g-3" action="https://formsubmit.co/tlc.community@yahoo.com.com" method="POST">
+          <div class="col-md-6">
+              <label for="firstname" class="form-label">First Name</label>
+              <input type="text" class="form-control" name="name" id="firstname" required>
+          </div>
+          <div class="col-md-6">
+              <label for="lastname" class="form-label">Last Name</label>
+              <input type="text" class="form-control" name="Last Name" id="lastname" required>
+          </div>
+          <div class="col-md-8">
+              <label for="emailinfo" class="form-label">Email</label>
+          
+           <input type="email" class="form-control" name="email" id="emailInfo" required>
+      </div>
+      <div class="col-md-4">
+          <label for="phoneNumber" class="form-label">Phone Number</label>
+          <input type="text" class="form-control" name="phone" id="phoneNumber" placeholder="+1 (559) 412-9587">
+      </div>
+      <div class="col-md-12">
+          <label for="comments" class="form-label">Comments, questions?</label>
+          <textarea class="form-control" id="comments" name="comments, questions" rows="3" required></textarea>
+      </div>
+      <div class="col-md-12">
+          <button type="submit" class="btn btn-primary mb-5">Submit</button>
+      </div>
+  
+       </form>
+
+        
     </div>
-    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    <!-- <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script> -->
       
       <div class="container-fluid ">
         <div class="box p-5">
